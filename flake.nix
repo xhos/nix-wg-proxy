@@ -19,7 +19,8 @@
       modules = [
         disko.nixosModules.disko
         ./configuration.nix
-        ./disko.nix
+        ./hardware-configuration.nix # comment out if using nixos-anywhere
+        # ./disko.nix # un-comment if using nixos-anywhere
       ];
     };
   };
